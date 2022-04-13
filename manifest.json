@@ -1,0 +1,28 @@
+{
+	"manifest_version": 2,
+	"name": "RemoveAd Extension",
+	"description": "Bloqueador de anúncios personalizavel e Open-Source",
+	"version": "1.0.0",
+	"content_scripts": [{
+		"matches": [
+			"http://*/*", 
+			"https://*/*", 
+			"http://*/", 
+			"https://*/"
+		],
+		"exclude_matches": [
+			"https://carlosalves.vercel.app/"
+		],
+		"js": ["main.js"] 
+	}],
+	"permissions": ["bookmarks", "onload"],
+	"icons" : {
+       "128": "assets/icon.svg",
+       "48":  "assets/icon.svg",
+       "16":  "assets/icon.svg"
+    },
+    "browser_action": {
+       "default_icon":  "assets/icon.svg",
+        "default_popup": "popup/index.html"
+    }
+}
