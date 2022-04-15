@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: 
+        linear-gradient(
+            203.45deg, 
+            #F71515 13.57%, 
+            #F71212 24.54%, 
+            #FD3838 44.32%, 
+            #FD3838 44.33%, 
+            #F71565 58.64%, 
+            #F71565 72.04%
+        )
+    ;
+    background-repeat: no-repeat;
+}
+
+.bg-body {
+    padding: 1rem;
+    margin: 1.2rem;
+    background: #F9F9F9;
+    border-radius: 15px;
+}
+
+.bg-body .logo-icon {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #F71565;
+}
+
+.bg-body .logo-icon img{
+    width: 100px;
+}
+
+.bg-body .content > div{
+    font-size: 1rem;
+    font-weight: bold;
+    width: 13rem;
+    background: #fad8d8;
+    color: #F71565;
+    margin: .5rem 0;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+
+    transition: background .7s;
+}
+
+.bg-body .content > div, .bg-body .content > div a, .bg-body .content > div label {
+    cursor: pointer;
+}
+
+.bg-body .content > div a {
+    color: #F71565;
+    text-decoration: none;
+}
+
+.bg-body .content > div:hover {
+    background: #facaca;
+}

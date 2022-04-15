@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title i18n="options_title">RemoveAd Extension</title>
+  
+  <link rel="stylesheet" type="text/css" href="./styles/style.css">
+  
+  <link rel="shortcut icon" href="assets/icon.svg" />
+</head>
+<body>
+  <section class="bg-body">
+    <div class="logo-icon">
+      <img src="../assets/icon.svg" alt="Logo">
+      <p id="host"></p>
+    </div>
+    <div class="content">
+      <div>
+        <label for="has-active">Desativar nesse site:</label>
+        <input type="checkbox" name="has-active" id="has-active">
+      </div>
+
+      <div><a href="#">Configurações</a></div>
+      
+      <div><a href="./rules.html">Adicionar uma regra</a></div>
+    </div>
+  </section>
+
+  <script>
+    const host = document.getElementById("host")
+
+    host.innerText = window.location.host
+  </script>
+</body>
+</html>
