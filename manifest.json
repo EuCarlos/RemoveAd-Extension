@@ -17,12 +17,16 @@
 	}],
 	"permissions": ["bookmarks", "onload"],
 	"icons" : {
-       "128": "assets/icon.svg",
-       "48":  "assets/icon.svg",
-       "16":  "assets/icon.svg"
+       "128": "assets/icon128.png",
+       "48":  "assets/icon48.png",
+       "16":  "assets/icon16.png"
     },
     "browser_action": {
-       "default_icon":  "assets/icon.svg",
-        "default_popup": "popup/index.html"
-    }
+       	"default_icon":  "assets/icon48.png",
+    	"default_popup": "pages/popup.html"
+    },
+	"options_ui": {
+	  "page": "pages/rules.html",
+	  "open_in_tab": true
+	}
 }
