@@ -1,8 +1,8 @@
 # RemoveAd Extension 
 
 <div align="center">
-<img width="400px" src="../../.github/logo_light.png#gh-light-mode-only">
-<img width="400px" src="../../.github/logo_dark.png#gh-dark-mode-only">
+<img width="400px" src="./.github/logo_light.png#gh-light-mode-only">
+<img width="400px" src="./.github/logo_dark.png#gh-dark-mode-only">
 
 Customizable and Open-Source ad blocker</div>
 
